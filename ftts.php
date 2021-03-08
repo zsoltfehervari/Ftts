@@ -1,6 +1,6 @@
 <?php
 
-class Ftts{
+final class Ftts{
     
     private $langs_arr = array(
         "us"=>"US English",
@@ -35,7 +35,7 @@ class Ftts{
     );
     
 
-        private function speech($text,$lang,$voice,$speed){
+    private function speech($text,$lang,$voice,$speed){
 
         if((int)$speed > 2 || (int) $speed < -1){
             $speed = 0;
@@ -75,7 +75,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// US
 
-        public function Alice ($text = "",$speed = 0){
+    public function Alice ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -86,7 +86,7 @@ class Ftts{
             );
         }
 
-        public function Daisy ($text = "",$speed = 0){
+    public function Daisy ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -97,7 +97,7 @@ class Ftts{
             );
         }
 
-        public function George ($text = "",$speed = 0){
+    public function George ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -108,7 +108,7 @@ class Ftts{
             );
         }
 
-        public function Jenna ($text = "",$speed = 0){
+    public function Jenna ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -119,7 +119,7 @@ class Ftts{
             );
         }
 
-        public function John ($text = "",$speed = 0){
+    public function John ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -132,7 +132,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// UK    
 
-        public function Emma ($text = "",$speed = 0){
+    public function Emma ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -143,7 +143,7 @@ class Ftts{
             );
         }
 
-        public function Harry ($text = "",$speed = 0){
+    public function Harry ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -156,7 +156,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// FR
 
-        public function Gabriel ($text = "",$speed = 0){
+    public function Gabriel ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -167,7 +167,7 @@ class Ftts{
             );
         }
 
-        public function Jade ($text = "",$speed = 0){
+    public function Jade ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -180,7 +180,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// SP
 
-        public function Isabella ($text = "",$speed = 0){
+    public function Isabella ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -191,7 +191,7 @@ class Ftts{
             );
         }
 
-        public function Mateo ($text = "",$speed = 0){
+    public function Mateo ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -204,7 +204,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// GE
 
-        public function Michael ($text = "",$speed = 0){
+    public function Michael ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -215,7 +215,7 @@ class Ftts{
             );
         }
 
-        public function Nadine ($text = "",$speed = 0){
+    public function Nadine ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -228,7 +228,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// IT
 
-        public function Alessandra ($text = "",$speed = 0){
+    public function Alessandra ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -239,7 +239,7 @@ class Ftts{
             );
         }
 
-        public function Giovanni ($text = "",$speed = 0){
+    public function Giovanni ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -252,7 +252,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// PO
 
-        public function Rodrigo ($text = "",$speed = 0){
+    public function Rodrigo ($text = "",$speed = 0){
 
             return $this->speech
             (
@@ -265,7 +265,7 @@ class Ftts{
 
 ////////////////////////////////////////////////////////////// RU
 
-        public function Valentina ($text = "",$speed = 0){
+    public function Valentina ($text = "",$speed = 0){
 
             return $this->speech
             (
