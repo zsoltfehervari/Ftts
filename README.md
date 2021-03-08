@@ -3,14 +3,16 @@ Text To Speech PHP Class via www.fromtexttospeech.com
 
 
 Usage:
-,,,'''
+
+<pre><code>
 $ftts = new Ftts();
 
 $speed = 0; <br>
 $input = "Hello World";
 
 $dataUrl = $ftts->Alice($input,$speed);
-,,,'''
+</pre></code>
+
 -----------------------------------------------------------------------------
 
 Speech speed : min: -1 , max: 2
