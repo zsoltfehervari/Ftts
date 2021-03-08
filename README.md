@@ -21,17 +21,45 @@ Speech speed : min: -1 , max: 2
 
 Languages and Voices:
 
-English US : Alice,Daisy,George,Jenna,John.<br>
-English UK : Emma,Harry.
 
-French : Gabriel,Jade.
+<table>
+  <tr>
+    <th>Language</th>
+    <th>Voice</th>
+    </tr>
+      <tr>
+        <td>English US</td>
+        <td>Alice,Daisy,George,Jenna,John</td>
+  </tr>
+  <tr>
+        <td>English UK</td>
+        <td>Emma,Harry</td>
+  </tr>
+  <tr>
+        <td>French</td>
+        <td>Gabriel,Jade</td>
+  </tr>
+  <tr>
+        <td>Spanish</td>
+        <td>Isabella,Mateo</td>
+  </tr>
+  <tr>
+        <td>German</td>
+        <td> Michael,Nadine</td>
+  </tr>
+  <tr>
+        <td>Italian</td>
+        <td>Alessandra,Giovanni</td>
+  </tr>
+  <tr>
+        <td>Portuguese</td>
+        <td>Rodrigo</td>
+  </tr>
+  <tr>
+        <td>Russian</td>
+        <td>Valentina</td>
+  </tr>
 
-Spanish : Isabella,Mateo.
+</table>
 
-German : Michael,Nadine.
 
-Italian : Alessandra,Giovanni.
-
-Portuguese : Rodrigo.
-
-Russian : Valentina.
