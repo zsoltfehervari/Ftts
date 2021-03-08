@@ -12,7 +12,7 @@ $input = "Hello World";
 
 $dataUrl = $ftts->Alice($input,$speed);
 
-echo "<audio controls src='".$dataUrl."'></audio>";
+echo <audio controls src='".$dataUrl."'></audio>;
 
 </pre></code>
 
