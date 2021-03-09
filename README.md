@@ -1,5 +1,5 @@
 # Ftts
-Text To Speech PHP Class via www.fromtexttospeech.com
+Text To Speech PHP Class via www.fromtexttospeech.com (thanks:)
 
 
 Usage:
