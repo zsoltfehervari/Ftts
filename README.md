@@ -7,9 +7,9 @@ Usage:
 $ftts = new Ftts();
 
 $speed = 0; <br>
-$input = "Hello World";
+$text = "Hello World";
 
-$dataUrl = $ftts->Alice($input,$speed);
+$dataUrl = $ftts->Alice($text,$speed);
 
 </pre></code>
 
