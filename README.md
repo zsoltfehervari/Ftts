@@ -4,6 +4,9 @@ Text To Speech PHP Class via www.fromtexttospeech.com
 Usage:
 
 <pre><code>
+
+include "ftts.php";
+
 $ftts = new Ftts();
 
 $speed = 0; <br>
